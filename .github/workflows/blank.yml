@@ -34,3 +34,13 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          Running  upgrade command
+          php bin/magento setup:upgrade
+          Running compile command
+          php bin/magento setup:di:compile
+          Static content deploy command
+          php bin/magento setup:static-content:deploy -f
+          cahe clean 
+          php bin/magento cache:clean
+          cache flush
+          sudo php bin/magento cache:flush
